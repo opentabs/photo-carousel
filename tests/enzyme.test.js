@@ -1,7 +1,7 @@
 import React from "react";
 import {shallow} from "enzyme";
 import App from "../client/src/components/app.jsx";
-import Photostab from '../client/src/components/Photostab';
+import PhotosTab from '../client/src/components/PhotosTab';
 
 // describe("Hello Word test", () => {
 //   const wrapper = shallow(<App/>);
@@ -12,7 +12,7 @@ import Photostab from '../client/src/components/Photostab';
 
 describe('Photos should exist', () => {
   it('should show photos', () => {
-    const wrapper = shallow(<Photostab/>);
+    const wrapper = shallow(<PhotosTab/>);
       expect(wrapper.exists()).toBe(true);
   })
 });

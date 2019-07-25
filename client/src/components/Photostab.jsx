@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Photostab extends React.Component {
+class PhotosTab extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -27,4 +27,4 @@ class Photostab extends React.Component {
   }
 }
 
-export default Photostab;
+export default PhotosTab;

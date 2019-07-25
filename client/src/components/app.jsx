@@ -1,7 +1,7 @@
 import React from "react";
 import $ from "jquery";
-import Photostab from "./Photostab.jsx";
-import MyModal from "./MyModal.jsx";
+import PhotosTab from "./PhotosTab.jsx";
+import Modal from "./Modal.jsx";
 import "../style.css";
 
 class App extends React.Component {
@@ -39,8 +39,8 @@ class App extends React.Component {
     return (
       <div className='photo-gallery'>
         <h2 className='photo-gallery-header'>10 Photos</h2>
-        <Photostab showModalState={this.showModalState.bind(this)} photos={this.state.photos}></Photostab>
-        {this.state.showModal && (<MyModal photos={this.state.photos} slideIndex={this.state.slideIndex} showModalState={this.showModalState.bind(this)}t></MyModal>)}
+        <PhotosTab showModalState={this.showModalState.bind(this)} photos={this.state.photos}></PhotosTab>
+        {this.state.showModal && (<Modal photos={this.state.photos} slideIndex={this.state.slideIndex} showModalState={this.showModalState.bind(this)}t></Modal>)}
       </div>
     )
   }
