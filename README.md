@@ -1,6 +1,6 @@
-# Project Name
+# Photo Carousel
 
-> Project description
+> A photo carousel component for a Restaurant reservation web application built using React to dynamically render restaurant photos.
 
 ## Related Projects
 
