@@ -18,7 +18,8 @@
 
 ## Usage
 
-> Some usage instructions
+> npm run build - to start webpack
+> npm run start - to start server
 
 ## Requirements
 
