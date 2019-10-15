@@ -10,16 +10,10 @@
 1. https://github.com/opentabs/reservation-calendar
 1. https://github.com/opentabs/photos-carousel
 
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-
 ## Usage
 
-> npm run build - to start webpack
-> npm run start - to start server
+npm run build - to start webpack
+npm run start - to start server
 
 ## Requirements
 
@@ -34,8 +28,5 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 From within the root directory:
 
-```
-npm install -g webpack
 npm install
-```
 
